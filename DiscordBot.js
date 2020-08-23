@@ -1,5 +1,5 @@
-const Discord = require('discord.js')
-const fetch = require('node-fetch');
+const Discord = require('./node_modules/discord.js')
+const fetch = require('./node_modules/node-fetch');
 
 const client = new Discord.Client()
 let memeCounter = 0
